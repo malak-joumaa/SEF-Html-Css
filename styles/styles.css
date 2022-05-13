@@ -1,0 +1,10 @@
+  #seLink{
+    cursor: pointer;
+}
+
+#seLink img{
+    width: auto;
+    max-width: 100%;
+    max-height: 80px;
+    border: 0;
+}
