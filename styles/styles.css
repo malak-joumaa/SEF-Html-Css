@@ -119,7 +119,7 @@ a:link ,a:visited{
     margin-top: 4vh;
 }
 
-/* Section 2 */
+/* SECTION 2 */
 #s2{
     display: flex;
     flex-direction: row;
@@ -147,3 +147,40 @@ a:link ,a:visited{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     line-height: 1.4;
 }
+
+/* SECTION 3 */
+#s3{
+    padding: 20vh 6vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#s3-left{
+    width: 50%;
+    padding: 0 17px;
+}
+#s3 img{
+    width: 100%;
+}
+
+#s3-right{
+    width: 50%;
+    line-height: 1.4;
+    padding: 0 17px;
+}
+
+#s3-right span{
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+}
+
+#s3-right p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    padding-left: 40px;
+}
+
+#s3-right a{
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #0d0;
+    border-bottom: 1px solid #0d0;
+}
+
