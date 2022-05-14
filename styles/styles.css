@@ -15,62 +15,50 @@ body{
 }
 
 /* Section 1 - Part 1 */
-
-#s1-p1{
-    padding: 1vw 7.5%;
-}
-#nav-bar{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 2em;
-    color: #fff;
+*{
+    padding: 0;
+  }
+  nav{
+    height: 99px;
     width: 100%;
-    height: 79.9px;
-    line-height: 1;
-    display: flex;
-}
-
-/* Left - Navbar */
-#left-nav{
-    float: left;
-}
-#seLink{
-    cursor: pointer;
-}
-#seLink img{
+  }
+  label img{
+    padding-top: 2vh;
     height: 80px;
-}
+    cursor: pointer;
+    margin-left:5%;
+  }
+  nav ul{
+    float: right;
+    margin-right: 5%;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: 500;
+  }
+  nav ul li a{
+    padding: 7px 13px;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
 
-/* Right - Navbar */
-#right-nav{
-    float: right;
-    margin: auto;
-    display: flex;
-    flex: 1 1;
-    align-items: center;
-    justify-content: space-between;
-}
-#r-nav{
-    float: right;
-    margin: auto;
-    display: flex;
-    flex: 1 1;
-    align-items: center;
-    flex-basis:600px;
-    flex-shrink: 0;
-}
-#r-nav>div{
-    flex: 1 1 auto;
-    text-align: right
-}
-#l-nav{
-    float: left;
-    width:44%;
-    flex-shrink: 2;
-}
 #home{
     border-bottom: 1px solid white;
     padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 /* Apply Now button */
@@ -92,7 +80,7 @@ a:link ,a:visited{
 
 /* Section 1 - Part 2 */
 #s1-p2{
-    height: 60vh;
+    height: 65vh;
     padding: 11vw 7vw 3vw;
 }
 #s1-p2-text{
@@ -247,7 +235,7 @@ a:link ,a:visited{
     width: 100%;
 }
 
-/* Section 9 */
+/* SECTION 9 */
 #s9{
     padding: 3.3vmax 6vw;
     text-align: center;
@@ -256,7 +244,7 @@ a:link ,a:visited{
     width: 25%;
 }
 
-/* Section 10 */
+/* SECTION 10 */
 #s10{
     padding:0.5vw 6vw;
     padding-bottom: 5vw;
@@ -275,14 +263,15 @@ a:link ,a:visited{
     font-size: calc((1.3 - 1) * 1.2vw + 1rem) ;
 }
 
-/* Section 11 */
+/* SECTION 11 */
 #s11{
     padding: 3.3vmax 7vw;
     background-color: black;
     color: white;
     align-items: center;
     font-size: calc((1.1 - 1) * 1.2vw + 1rem);
-
+    display: flex;
+    justify-content: space-between;
 }
 #s11 a{
     color: #0d0;
@@ -291,19 +280,120 @@ a:link ,a:visited{
 #s11 i{
     padding-left: 20px;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
-    position: relative;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
 }
 #right{
-    float: right;
     display: flex;
 }
-#center{
-    text-align: center;
+.checkbox{
+    display: none;
 }
-#left{
-    float: left;
-    margin-top: 0;
+
+@media only screen and (max-width: 767px) {
+    .section{
+        flex-direction: column;
+    }
+    /* Section 2 */
+    #s2{
+        height: 100%;
+        padding-top: 3.3vmax;
+        align-items: center;
+    }
+    
+    /* Section 3 */
+    #s3-left{
+        width: 100%;
+        padding: 17px;
+    }
+    #s3-right{
+        width: 100%;
+        line-height: 1.4;
+        padding: 17px;
+    }
+     /* Section 4 */
+     #s4 img{
+        width: 100%;
+        height: 100%;
+    }
+    /* Section 6 */
+    #s6 div{
+        font-size: calc((2 - 1) * 1.2vw + 1rem);
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Section 7 */
+    #s7 img{
+        width: 100%;
+        height: 100%;
+    }
+    /* Section 8 */
+    #s8-flex div{
+        width: 100%;
+        padding: 3%;
+    }
+    /* Section 9 */
+    #s9-flex div{
+        width: 100%;
+    }
+    /* Section 11 */
+    #s11{
+        display: block;
+    }
+    #left{
+        float: left;
+    }
+    #center::before{
+        content: '\A';
+        white-space: pre;
+    }
+    #center{
+        padding: 7%;
+        text-align: center;
+    }
+    #right{
+        float: right;
+    }
 }
+
+  @media (max-width: 965px){
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0;
+        font-weight: 500;
+      }
+      nav ul li a{
+        padding: 7px 4.5px;
+      }
+
+  }
+  @media (max-width: 767px){
+    .checkbtn{
+      display: block;
+      overflow: hidden;
+    }
+    ul{
+      margin: 0;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+      color: black !important;
+      font-weight: 500 !important;
+      font-size: 6vmin !important;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  
