@@ -1,12 +1,89 @@
 body{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/presentation.JPG) no-repeat center fixed;
     background-size: cover;
+    font-family: Roboto;
+    margin: 0;
+} 
+
+/* Section 1 - Part 1 */
+
+#s1-p1{
+    padding: 1vw 7.5%;
 }
 
 #nav-bar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 2em;
+    color: #fff;
+    width: 100%;
+    height: 79.9px;
+    line-height: 1;
+    display: flex;
+}
+
+/* Left - Navbar */
+#left-nav{
+    float: left;
+}
+#seLink{
+    cursor: pointer;
+}
+#seLink img{
     height: 80px;
 }
 
-#seLink img{
-    max-height: 80px;
+/* Right - Navbar */
+#right-nav{
+    float: right;
+    margin: auto;
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    justify-content: space-between;
 }
+#r-nav{
+    float: right;
+    margin: auto;
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    flex-basis:600px;
+    flex-shrink: 0;
+    
+}
+#r-nav>div{
+    flex: 1 1 auto;
+    text-align: right
+}
+#l-nav{
+    float: left;
+    width:44%;
+    flex-shrink: 2;
+}
+
+#home{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+/* Apply Now button */
+.btn{
+    background-color: #0d0;
+    color:white;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 11px 21px;
+    text-decoration: none;
+}
+a:link ,a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
