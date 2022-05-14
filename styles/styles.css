@@ -148,6 +148,7 @@ a:link ,a:visited{
     line-height: 1.4;
 }
 
+
 /* SECTION 3 */
 #s3{
     padding: 20vh 6vw;
@@ -183,4 +184,17 @@ a:link ,a:visited{
     color: #0d0;
     border-bottom: 1px solid #0d0;
 }
+
+
+/* SECTION 4 */
+#s4{
+    background-color: #0d0;
+    text-align: center;
+}
+
+#s4 span{
+    color: white;
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+}
+
 
