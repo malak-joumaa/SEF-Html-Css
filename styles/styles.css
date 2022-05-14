@@ -280,12 +280,35 @@ a:link ,a:visited{
     text-align: center;
 }
 
-#s7 div{
-
-}
 #s7 img{
     width: 56vw;
     height: 23vw;
 }
 
+/* SECTION 8 */
+#s8{
+    padding: 3.3vmax 6vw;
+    background-color: #e6e6e6;
+    text-align: center;
+}
 
+#s8 p{
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+    font-weight: 700;
+    margin-top: 0;
+}
+
+#s8-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#s8-flex div{
+    width: 22%;
+    padding: 1%;
+}
+
+#s8-flex img{
+    width: 100%;
+}
