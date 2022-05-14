@@ -1,10 +1,12 @@
-  #seLink{
-    cursor: pointer;
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/presentation.JPG) no-repeat center fixed;
+    background-size: cover;
+}
+
+#nav-bar{
+    height: 80px;
 }
 
 #seLink img{
-    width: auto;
-    max-width: 100%;
     max-height: 80px;
-    border: 0;
 }
