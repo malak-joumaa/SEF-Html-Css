@@ -1,9 +1,13 @@
 body{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/presentation.JPG) no-repeat center fixed;
-    background-size: cover;
     font-family: Roboto;
     margin: 0;
 } 
+
+#s1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/presentation.JPG) no-repeat center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+}
 
 /* Section 1 - Part 1 */
 
@@ -85,5 +89,30 @@ a:link ,a:visited{
 }
 
 
+/* Section 1 - Part 2 */
+#s1-p2{
+    height: 60vh;
+    padding: 11vw 7vw 3vw;
+}
+#s1-p2-text{
+    color: white;
+    line-height: 1.3;
+    margin-top: 11vh;
+}
+
+#text-1{
+    font-size: 4vw;
+    font-weight: 400;
+}
+#text-2{
+    font-size: 1.6vw;
+    margin: 16px 0 0;
+    width: 50%;
+}
+#text-3{
+    float: left;
+    font-size: 1vw;
+    margin-top: 4vh;
+}
 
 
