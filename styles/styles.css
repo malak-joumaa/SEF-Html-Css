@@ -189,6 +189,7 @@ a:link ,a:visited{
 /* SECTION 4 */
 #s4{
     background-color: #0d0;
+    padding: 6.5vh 6vw;
     text-align: center;
 }
 
@@ -196,5 +197,22 @@ a:link ,a:visited{
     color: white;
     font-size: calc((3 - 1) * 1.2vw + 1rem);
 }
+
+#seCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#seCards div{
+    padding: 17px;
+}
+
+#s4 img{
+    width: 27vw;
+    height: 32vw;
+}
+
 
 
