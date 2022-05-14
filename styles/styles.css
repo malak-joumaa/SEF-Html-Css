@@ -215,4 +215,39 @@ a:link ,a:visited{
 }
 
 
+/* SECTION 5 */
+#s5{
+    padding: 10vh 6vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#s5-left{
+    width: 50%;
+    padding: 0 17px;
+}
+#s5 img{
+    width: 100%;
+}
+
+#s5-right{
+    width: 50%;
+    line-height: 1.4;
+    padding: 0 17px;
+}
+
+#s5-right span{
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+}
+
+#s5-right p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    padding-left: 40px;
+}
+
+#s5-right a{
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #0d0;
+    border-bottom: 1px solid #0d0;
+}
 
