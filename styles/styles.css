@@ -132,7 +132,7 @@ a:link ,a:visited{
 
 /* SECTION 3 */
 #s3{
-    padding: calc(45vmax / 10) 6vw;
+    padding: calc(45vmax / 10) 7vw;
 }
 #s3-left{
     width: 50%;
@@ -183,7 +183,7 @@ a:link ,a:visited{
 
 /* SECTION 5 */
 #s5{
-    padding: 3.3vmax 3.3vmax;
+    padding: calc(45vmax / 10) 7vw;
 }
 
 /* SECTION 6 */
@@ -203,9 +203,7 @@ a:link ,a:visited{
 
 /* SECTION 7 */
 #s7{
-    padding: 5vh 6vw;
-    padding-top: calc(10vmax / 10);
-    padding-bottom: calc(10vmax / 10);
+    padding: calc(10vmax / 10) 7vw;
     text-align: center;
 }
 #s7 img{
@@ -215,7 +213,7 @@ a:link ,a:visited{
 
 /* SECTION 8 */
 #s8{
-    padding: 3.3vmax 6vw;
+    padding: 3.3vmax 7vw;
     background-color: #e6e6e6;
     text-align: center;
 }
@@ -246,7 +244,7 @@ a:link ,a:visited{
 
 /* SECTION 10 */
 #s10{
-    padding:0.5vw 6vw;
+    padding:3.3vmax 7vw;
     padding-bottom: 5vw;
     background-color: #e6e6e6;
     text-align: center;
